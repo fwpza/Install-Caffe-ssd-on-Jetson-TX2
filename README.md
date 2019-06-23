@@ -115,6 +115,9 @@ $ cd python
 $ for req in $(cat requirements.txt); do sudo pip install $req; done
 (upgrade pip version might be needed)
 $ make py-j $(nproc)
+
+#### don not forget to make pycaffe
+$ make pycaffe
 ```
 
 Add following three lines to `~/.bashrc` and restart a bash 
